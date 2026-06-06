@@ -4,7 +4,7 @@ function Product({ title, price = 1 }) {
   return (
     <div className="Product">
       <h3>CourseName: {title}</h3>
-      <p>Price: {price}</p>
+      <p>Price is: {price}</p>
     </div>
   );
 }
