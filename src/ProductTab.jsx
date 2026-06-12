@@ -18,7 +18,7 @@ function ProductTab() {
       <Product
         title="MERN Stack"
         price={12322}
-        features={["MongoDB", "Express", "React", "Node"]}
+        features={["MongoDB", "Express", "React", "Node.js"]}
       />
     </>
   );
