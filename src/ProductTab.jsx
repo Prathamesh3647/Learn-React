@@ -1,26 +1,19 @@
 import Product from "./Product.jsx";
 
 function ProductTab() {
-  let options = ["good", "easy"];
-  let options2 = { a: "Simple", b: "ajdna" };
-
+  let styles = {
+    display: "flex",
+    flexWrap: "wrap",
+    justifyContent: "center",
+    alignItems: "center",
+  };
   return (
-    <>
-      <Product
-        title="Cloud computing"
-        price={8999}
-        features={options}
-        features2={options2}
-      />
-
-      <Product title="Data Science" price={2000} features={["AI", "ML"]} />
-
-      <Product
-        title="MERN Stack"
-        price={12322}
-        features={["MongoDB", "Express", "React", "Node.js"]}
-      />
-    </>
+    <div style={styles}>
+      <Product title="Logitech MX master" idx={0} />
+      <Product title="Apple pencil ( 2nd gen )" idx={1} />
+      <Product title="Zebronics Zeb-transformer" idx={2} />
+      <Product title="Potronics Tob-23" idx={3} />
+    </div>
   );
 }
 
