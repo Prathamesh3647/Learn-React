@@ -2,11 +2,12 @@ import "./App.css";
 import Ludo from "./Ludo";
 import Counter from "./Counter";
 import LikeButton from "./LikeButton";
+import TodoList from "./TodoList";
 function App() {
   return (
     <>
-      <h1>Ludo board</h1>
-      <Ludo />
+      <h1>Todo app</h1>
+      <TodoList />
     </>
   );
 }
